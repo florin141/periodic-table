@@ -1,0 +1,9 @@
+language: java
+before_install:
+  - chmod +x gradlew
+script:
+  - ./gradlew assemble --no-daemon
+jdk:
+ - oraclejdk8
+os:
+- linux
